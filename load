@@ -11,32 +11,20 @@
 @import url('https://raw.githubusercontent.com/galaxine-senpai/ventrans/main/Acrylic/spotify.css'); /* Spotify Module */
 
 /* Config */
-:root {
-    /*   Transparência geral (0 = totalmente transparente, 1 = opaco)   */
-    --var-opacity-option: 0.15;    
-    
-    /*   Saturação das cores por trás do acrílico (1 = padrão)   */
-    --var-color-saturation: 1.2; 
+:root{
+    --var-opacity-option: 0;    /*   Acrylic opacity from 0 to 1    */
+    --var-color-saturation: 1.3; /* 0 to 999 where 1 is the default  */
+    --var-contrast: 1.6;          /*     Increase for darker blacks   */
 
-    /*   Ajuste de contraste (Aumente para escurecer tons pretos)   */
-    --var-contrast: 1.2;          
+    --var-opacity-titlebar: 0.15;
+    --var-opacity-left-sidebar: 0.22;
+    --var-opacity-bottom-input: 0.22; /* Change the transparency of different elements */
+    --var-opacity-right-sidebar: 0.39;
+    --var-opacity-inner-messages: 0.33;
 
-    /*   Opacidade das áreas do Discord (Valores de 0 a 1)   */
-    --var-opacity-titlebar: 0.10;         /* Barra superior */
-    --var-opacity-left-sidebar: 0.15;      /* Lista de canais/servidores (Esquerda) */
-    --var-opacity-bottom-input: 0.18;      /* Caixa de mensagem (Baixo) */
-    --var-opacity-right-sidebar: 0.20;     /* Lista de membros (Direita) */
-    --var-opacity-inner-messages: 0.12;    /* Área principal das mensagens */
-
-    /* Efeito de desfoque (Vidro Fosco/Frosted Glass) */
-    --window-blur: 12px;
-}
-
-/* Forçar transparência pura nos fundos do Discord */
-.theme-dark, .theme-light, .theme-midnight {
-    --background-primary: transparent !important;
-    --background-secondary: transparent !important;
-    --background-secondary-alt: transparent !important;
-    --background-tertiary: transparent !important;
-    --background-floating: transparent !important;
+    /* 
+    For example: 
+    0.1 --var-opacity-option with 99 --var-color-saturation
+    0.4 --var-opacity-option with 2.8 --var-color-saturation
+    0.6 --var-opacity-option with 1.8 --var-color-saturation        */
 }
