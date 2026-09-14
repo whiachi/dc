@@ -18,7 +18,7 @@
 
     --var-opacity-titlebar: 0.15;
     --var-opacity-left-sidebar: 0.22;
-    --var-opacity-bottom-input: 0.22; /* Change the transparency of different elements */
+    --var-opacity-bottom-input: 1; /* Change the transparency of different elements */
     --var-opacity-right-sidebar: 0.39;
     --var-opacity-inner-messages: 0.33;
 
