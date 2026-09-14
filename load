@@ -16,11 +16,11 @@
     --var-color-saturation: 1.5; /* 0 to 999 where 1 is the default  */
     --var-contrast: 1.6;          /*     Increase for darker blacks   */
 
-    --var-opacity-titlebar: 0.1;
-    --var-opacity-left-sidebar: 0.1;
-    --var-opacity-bottom-input: 0.1; /* Change the transparency of different elements */
-    --var-opacity-right-sidebar: 0.1;
-    --var-opacity-inner-messages: 0.1;
+    --var-opacity-titlebar: 0.25;
+    --var-opacity-left-sidebar: 0.2;
+    --var-opacity-bottom-input: 0.3; /* Change the transparency of different elements */
+    --var-opacity-right-sidebar: 0.254;
+    --var-opacity-inner-messages: 0.35;
 
     /* 
     For example: 
