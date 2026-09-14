@@ -13,7 +13,7 @@
 /* Config */
 :root {
     /*   Transparência geral (0 = totalmente transparente, 1 = opaco)   */
-    --var-opacity-option: 0.15;    
+    --var-opacity-option: 1;    
     
     /*   Saturação das cores por trás do acrílico (1 = padrão)   */
     --var-color-saturation: 1.2; 
@@ -25,7 +25,7 @@
     --var-opacity-titlebar: 0.10;         /* Barra superior */
     --var-opacity-left-sidebar: 0.12;      /* Lista de canais/servidores (Esquerda) */
     --var-opacity-bottom-input: 0.12;      /* Caixa de mensagem (Baixo) */
-    --var-opacity-right-sidebar: 0.12;     /* Lista de membros (Direita) */
+    --var-opacity-right-sidebar: 1;     /* Lista de membros (Direita) */
     --var-opacity-inner-messages: 0.12;    /* Área principal das mensagens */
 
     /* Efeito de desfoque (Vidro Fosco/Frosted Glass) */
