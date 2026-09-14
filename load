@@ -13,7 +13,7 @@
 /* Config */
 :root {
     /*   Transparência geral (0 = totalmente transparente, 1 = opaco)   */
-    --var-opacity-option: 0.15;    
+    --var-opacity-option: 0.1;    
     
     /*   Saturação das cores por trás do acrílico (1 = padrão)   */
     --var-color-saturation: 1.2; 
@@ -23,10 +23,10 @@
 
     /*   Opacidade das áreas do Discord (Valores de 0 a 1)   */
     --var-opacity-titlebar: 0.10;         /* Barra superior */
-    --var-opacity-left-sidebar: 0.15;      /* Lista de canais/servidores (Esquerda) */
-    --var-opacity-bottom-input: 0.18;      /* Caixa de mensagem (Baixo) */
-    --var-opacity-right-sidebar: 0.20;     /* Lista de membros (Direita) */
-    --var-opacity-inner-messages: 0.12;    /* Área principal das mensagens */
+    --var-opacity-left-sidebar: 0.1;      /* Lista de canais/servidores (Esquerda) */
+    --var-opacity-bottom-input: 0.1;      /* Caixa de mensagem (Baixo) */
+    --var-opacity-right-sidebar: 0.1;     /* Lista de membros (Direita) */
+    --var-opacity-inner-messages: 0.1;    /* Área principal das mensagens */
 
     /* Efeito de desfoque (Vidro Fosco/Frosted Glass) */
     --window-blur: 8px;
