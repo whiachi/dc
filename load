@@ -6,7 +6,7 @@
  * @source https://github.com/galaxine-senpai/ventrans/
  */
 
-@import url('https://raw.githubusercontent.com/galaxine-senpai/ventrans/main/Acrylic/transparency.css'); /* Main Transparency Module */
+@import url('https://raw.githubusercontent.com/whiachi/dc/refs/heads/main/transparency'); /* Main Transparency Module */
 @import url('https://raw.githubusercontent.com/galaxine-senpai/ventrans/main/Acrylic/transparent-popups.css'); /* Transparent popups */
 @import url('https://raw.githubusercontent.com/galaxine-senpai/ventrans/main/Acrylic/spotify.css'); /* Spotify Module */
 
