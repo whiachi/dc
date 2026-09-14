@@ -29,7 +29,7 @@
     --var-opacity-inner-messages: 0.12;    /* Área principal das mensagens */
 
     /* Efeito de desfoque (Vidro Fosco/Frosted Glass) */
-    --window-blur: 5px;
+    --window-blur: 12px;
 }
 
 /* Forçar transparência pura nos fundos do Discord */
